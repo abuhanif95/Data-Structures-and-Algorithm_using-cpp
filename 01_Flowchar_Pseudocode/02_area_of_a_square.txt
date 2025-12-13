@@ -1,0 +1,48 @@
+    Find area of square
+    ===================
+
+Algorithm: Area of Square
+1. START
+2. Declare variable side, area
+3. Read side of square
+4. Calculate area = side * side
+5. Display area
+6. STOP
+
+Pseudocode:
+BEGIN
+    DECLARE side, area
+
+    DISPLAY "Enter side of square: "
+    INPUT side
+
+    area = side * side
+
+    DISPLAY "Area of square: " + area
+END
+
+Flowchart:
+┌─────────┐
+│  START  │
+└────┬────┘
+     │
+┌────┴─────┐
+│ Declare  │
+│ side,area│
+└────┬─────┘
+     │
+┌────┴─────┐
+│ Read side│
+└────┬─────┘
+     │
+┌────┴─────┐
+│area=side²│
+└────┬─────┘
+     │
+┌────┴───────┐
+│Display area│
+└────┬───────┘
+     │
+┌────┴────┐
+│  STOP   │
+└─────────┘

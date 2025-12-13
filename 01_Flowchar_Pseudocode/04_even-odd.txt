@@ -1,0 +1,54 @@
+     check if number is even or odd
+     ==============================
+
+Algorithm:
+1. START
+2. Declare variable num
+3. Read number (num)
+4. If num % 2 == 0 then
+5.     Display "Even"
+6. Else
+7.     Display "Odd"
+8. STOP
+
+Pseudocode:
+BEGIN
+    DECLARE num
+
+    DISPLAY "Enter a number: "
+    INPUT num
+
+    IF num % 2 == 0 THEN
+        DISPLAY "Even"
+    ELSE
+        DISPLAY "Odd"
+END
+
+Flowchart:
+┌─────────┐
+│  START  │
+└────┬────┘
+     │
+┌────┴─────┐
+│ Declare  │
+│   num    │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ Read num │
+└────┬─────┘
+     │
+┌────┴──────┐
+│num % 2==0?│───Yes──┐
+└────┬──────┘        │
+     │No             │
+┌────┴─────┐   ┌─────┴────┐
+│Display   │   │Display   │
+│ "Odd"    │   │ "Even"   │
+└────┬─────┘   └─────┬────┘
+     │               │
+     └──────┬────────┘
+            │
+     ┌──────┴────┐
+     │   STOP    │
+     └───────────┘

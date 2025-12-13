@@ -1,0 +1,49 @@
+    Find sum of two numbers
+    =======================
+Algorithm:
+1. START
+2. Declare variables a, b, sum
+3. Read first number (a)
+4. Read second number (b)
+5. Calculate sum = a + b
+6. Display sum
+7. STOP
+
+
+Pseudocode:
+START
+    READ a
+    READ b
+    sum = a + b
+    PRINT sum
+STOP
+
+Flowchart:
+┌─────────┐
+│  START  │
+└────┬────┘
+     │
+┌────┴────┐
+│ Declare │
+│ a,b,sum │
+└────┬────┘
+     │
+┌────┴────┐
+│ Read a  │
+└────┬────┘
+     │
+┌────┴────┐
+│ Read b  │
+└────┬────┘
+     │
+┌────┴────┐
+│sum = a+b│
+└────┬────┘
+     │
+┌────┴──────┐
+│Display sum│
+└────┬──────┘
+     │
+┌────┴────┐
+│  STOP   │
+└─────────┘

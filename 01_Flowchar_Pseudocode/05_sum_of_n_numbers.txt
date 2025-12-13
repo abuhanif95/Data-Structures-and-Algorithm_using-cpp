@@ -1,0 +1,62 @@
+   Sum of numbers from 1 to N
+   ==========================
+
+Algorithm:
+1. START
+2. Declare variables n, i, sum = 0
+3. Read n
+4. For i = 1 to n
+5.     sum = sum + i
+6. End For
+7. Display sum
+8. STOP
+
+Pseudocode:
+BEGIN
+    DECLARE n, i, sum = 0
+
+    DISPLAY "Enter n: "
+    INPUT n
+
+    FOR i = 1 TO n
+        sum = sum + i
+    END FOR
+
+    DISPLAY "Sum: " + sum
+END
+
+Flowchart:
+┌─────────┐
+│  START  │
+└────┬────┘
+     │
+┌────┴─────┐
+│Declare   │
+│n,i,sum=0 │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ Read n   │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ i = 1    │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ i <= n?  │────No───┐
+└────┬─────┘         │
+     │Yes            │
+┌────┴─────┐   ┌─────┴────┐
+│sum=sum+i │   │Display   │
+└────┬─────┘   │  sum     │
+     │         └─────┬────┘
+┌────┴─────┐         │
+│ i = i + 1│         │
+└────┬─────┘         │
+     │               │
+     └──────┬────────┘
+            │
+     ┌──────┴────┐
+     │   STOP    │
+     └───────────┘

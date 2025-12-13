@@ -1,0 +1,65 @@
+   Find minimum of two numbers
+   ===========================
+
+Algorithm:
+1. START
+2. Declare variables a, b, min
+3. Read first number (a)
+4. Read second number (b)
+5. If a < b then min = a
+6. Else min = b
+7. Display min
+8. STOP
+
+Pseudocode:
+BEGIN
+    DECLARE a, b, min
+
+    DISPLAY "Enter first number: "
+    INPUT a
+
+    DISPLAY "Enter second number: "
+    INPUT b
+
+    IF a < b THEN
+        min = a
+    ELSE
+        min = b
+
+END
+
+FLowchart:
+┌─────────┐
+│  START  │
+└────┬────┘
+     │
+┌────┴─────┐
+│ Declare  │
+│ a,b,min  │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ Read a   │
+└────┬─────┘
+     │
+┌────┴─────┐
+│ Read b   │
+└────┬─────┘
+     │
+┌────┴─────┐
+│  a < b?  │──Yes────┐
+└────┬─────┘         │
+     │No             │
+┌────┴─────┐   ┌─────┴────┐
+│ min = b  │   │ min = a  │
+└────┬─────┘   └─────┬────┘
+     │               │
+     └──────┬────────┘
+            │
+     ┌──────┴──────┐
+     │ Display min │
+     └──────┬──────┘
+            │
+     ┌──────┴────┐
+     │   STOP    │
+     └───────────┘
